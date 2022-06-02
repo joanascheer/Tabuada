@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_16dp">
+
+        <ImageView
+            android:id="@+id/image_calculadora"
+            android:contentDescription="@string/image_calculadora_description"
+            android:layout_width="@dimen/size_120dp"
+            android:layout_height="@dimen/size_120dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginVertical="@dimen/margin_100dp"
+            app:srcCompat="@drawable/image_calculadora" />
+
+        <TextView
+            android:id="@+id/app_info_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/appInfoText"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_12sp"
+            app:layout_constraintTop_toBottomOf="@+id/image_calculadora"
+            app:layout_constraintStart_toStartOf="parent"
+            android:lineSpacingExtra="@dimen/lineSpacing6dp"/>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/app_info_text"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:hint="@string/digite_valor_text"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/text_size_12sp"
+            android:importantForAutofill="no"
+            />
+
+        <Button
+            android:id="@+id/btnCalcula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/editText"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="calcular tabuada"
+            android:layout_marginTop="@dimen/margin_30dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

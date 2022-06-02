@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tabuada</string>
+    <string name="image_calculadora_description">Quadrado azul contendo o símbolo de subtração, multiplicação, adição e igual.</string>
+    <string name="appInfoText">Vamos calcular a tabuada! Digite um valor e daremos a você a tabuada do número escolhido!</string>
+    <string name="digite_valor_text">Digite o valor da tabuada!</string>
+    <string name="resultado_text">Resultado</string>
+    <string name="titulo_resultado_tabuada">Resultado</string>
+    <string name="novo_calculo_text">novo cálculo</string>
+</resources>
