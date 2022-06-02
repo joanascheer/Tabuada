@@ -3,7 +3,17 @@
     <string name="image_calculadora_description">Quadrado azul contendo o símbolo de subtração, multiplicação, adição e igual.</string>
     <string name="appInfoText">Vamos calcular a tabuada! Digite um valor e daremos a você a tabuada do número escolhido!</string>
     <string name="digite_valor_text">Digite o valor da tabuada!</string>
-    <string name="resultado_text">Resultado</string>
+    <string name="resultado_text_0">%s x 0 = %s</string>
+    <string name="resultado_text_1">%s x 1 = %s</string>
+    <string name="resultado_text_2">%s x 2 = %s</string>
+    <string name="resultado_text_3">%s x 3 = %s</string>
+    <string name="resultado_text_4">%s x 4 = %s</string>
+    <string name="resultado_text_5">%s x 5 = %s</string>
+    <string name="resultado_text_6">%s x 6 = %s</string>
+    <string name="resultado_text_7">%s x 7 = %s</string>
+    <string name="resultado_text_8">%s x 8 = %s</string>
+    <string name="resultado_text_9">%s x 9 = %s</string>
+    <string name="resultado_text_10">%s x 10 = %s</string>
     <string name="titulo_resultado_tabuada">Resultado</string>
     <string name="novo_calculo_text">novo cálculo</string>
 </resources>
